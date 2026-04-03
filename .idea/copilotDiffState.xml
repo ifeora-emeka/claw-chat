@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/.env.example">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/.env.example" />
+              <option name="updatedContent" value="PORT=8080&#10;NODE_ENV=development&#10;DATABASE_URL=&quot;file:./dev.db&quot;&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/.gitignore">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/.gitignore" />
+              <option name="originalContent" value="node_modules&#10;# Keep environment variables out of version control&#10;.env&#10;dist&#10;/src/generated/prisma&#10;" />
+              <option name="updatedContent" value="node_modules&#10;# Keep environment variables out of version control&#10;.env&#10;dist&#10;/src/generated/prisma&#10;&#10;# SQLite database files&#10;*.db&#10;*.db-journal&#10;*.sqlite&#10;*.sqlite3" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
